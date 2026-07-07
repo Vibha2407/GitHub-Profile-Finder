@@ -1,16 +1,154 @@
-# React + Vite
+# 🚀 GitHub Profile Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive **GitHub Profile Finder** built with **React.js**, **Tailwind CSS**, **Material UI**, and the **GitHub REST API**.
 
-Currently, two official plugins are available:
+Search any GitHub username and instantly view profile details, repository statistics, and repositories.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📸 Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Desktop View
 
-## Expanding the Oxlint configuration
+![alt text](image.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+(Add your desktop screenshot here)
+
+### Mobile View
+
+![alt text](image-1.png)
+
+---
+
+## ✨ Features
+
+- 🔍 Search any GitHub username
+- 👤 Display profile information
+- 📍 Show location, bio and company
+- 👥 Followers & Following count
+- 📦 Public repositories
+- ⭐ Repository stars
+- 💻 Repository language
+- 🔗 Open GitHub profile in a new tab
+- 📱 Fully responsive design
+- ⏳ Loading state
+- ⚠️ Error handling for invalid usernames
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- Tailwind CSS
+- Material UI
+- Axios
+- GitHub REST API
+- Vite
+
+---
+
+## 📂 Folder Structure
+
+```text
+src
+│
+├── api
+│   └── githubApi.js
+│
+├── components
+│   ├── Navbar.jsx
+│   ├── SearchBar.jsx
+│   ├── ProfileCard.jsx
+│   ├── Stats.jsx
+│   ├── RepoCard.jsx
+│   └── Footer.jsx
+│
+├── pages
+│   └── Home.jsx
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Vibha2407/github-profile-finder.git
+```
+
+Go to the project folder
+
+```bash
+cd github-profile-finder
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📡 API Used
+
+### User Profile
+
+```text
+GET https://api.github.com/users/{username}
+```
+
+### User Repositories
+
+```text
+GET https://api.github.com/users/{username}/repos
+```
+
+---
+
+## 📚 What I Learned
+
+During this project I practiced:
+
+- React Components
+- Props
+- useState Hook
+- Conditional Rendering
+- API Integration using Axios
+- Async / Await
+- Error Handling
+- Responsive UI Design
+- GitHub REST API
+
+---
+
+## 🔮 Future Improvements
+
+- 🌙 Dark Mode
+- ❤️ Favorite Developers
+- 📜 Search History
+- 🔎 Repository Filtering
+- 📊 Repository Sorting
+- 🤖 AI GitHub Profile Analysis
+
+---
+
+## 👩‍💻 Author
+
+**Vibha Vishwakarma**
+
+GitHub: https://github.com/Vibha2407
+
+---
+
+⭐ If you found this project helpful, please give it a star!
