@@ -12,7 +12,7 @@ Search any GitHub username and instantly view profile details, repository statis
 
 ![alt text](image.png)
 
-(Add your desktop screenshot here)
+
 
 ### Mobile View
 
